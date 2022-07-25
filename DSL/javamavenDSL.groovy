@@ -49,6 +49,6 @@ job('job-DSL-java-maven') {
 job('Test-Hola-Mundo') {
     description('Job DSL test hola mundo para el curso de Jenkins')
     steps {
-      shell('echo Hola Mundo!!!')  
+      shell('echo Hola mundo!!!')  
     }
 }
