@@ -6,6 +6,9 @@ job('job-DSL-java-maven') {
             node / gitConfigEmail('maxirobledo@gmail.com')
         }
     }
+    triggers {
+    	githubPush()
+    }    
     steps {
         maven {
           mavenInstallation('maven jenkins')
